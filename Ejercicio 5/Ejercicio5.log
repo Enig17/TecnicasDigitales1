@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.11)  14 JUN 2026 21:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.11)  14 JUN 2026 21:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1408,7 +1408,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [6] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20260614212158 7E0E1CECA0873B338A9
+runsystem(latexminted cleantemp  --timestamp 20260614213141 7E0E1CECA0873B338A9
 6A737A0496B53)...disabled (restricted).
 
 (Ejercicio5.aux
@@ -1429,7 +1429,7 @@ Package rerunfilecheck Info: File `Ejercicio5.out' has not changed.
 Here is how much of TeX's memory you used:
  41708 strings out of 469941
  951503 string characters out of 5469430
- 1615737 words of memory out of 5000000
+ 1615728 words of memory out of 5000000
  67859 multiletter control sequences out of 15000+600000
  640177 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1450,9 +1450,9 @@ sers/scanf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
 fb><C:/Users/scanf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmr8.pfb><C:/Users/scanf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb>
-Output written on Ejercicio5.pdf (7 pages, 276972 bytes).
+Output written on Ejercicio5.pdf (7 pages, 276779 bytes).
 PDF statistics:
- 445 PDF objects out of 1000 (max. 8388607)
+ 444 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
