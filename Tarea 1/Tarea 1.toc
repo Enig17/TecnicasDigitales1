@@ -1,0 +1,18 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{Introducción}{2}{Doc-Start}%
+\contentsline {section}{Definición de Dispositivos}{2}{Doc-Start}%
+\contentsline {subsection}{CPLD (Complex Programmable Logic Device)}{2}{section*.1}%
+\contentsline {subsection}{FPGA (Field Programmable Gate Array)}{2}{section*.1}%
+\contentsline {subsection}{Diferencias Principales: FPGA vs. CPLD}{3}{section*.1}%
+\contentsline {section}{Siglas y Terminología}{3}{section*.1}%
+\contentsline {section}{Fabricantes y Productos}{4}{section*.1}%
+\contentsline {section}{Software, Protocolos y Seguridad}{4}{section*.1}%
+\contentsline {subsection}{Lenguajes}{4}{section*.2}%
+\contentsline {subsection}{Proyectos Open Source}{4}{section*.2}%
+\contentsline {subsection}{Soft Cores}{4}{section*.2}%
+\contentsline {subsection}{Seguridad}{4}{section*.2}%
+\contentsline {section}{Aplicaciones Especializadas}{5}{section*.2}%
+\contentsline {subsection}{Simulación Perfecta}{5}{section*.3}%
+\contentsline {subsection}{Escaladores de Video:}{5}{section*.3}%
+\contentsline {subsection}{Flashcarts}{5}{section*.3}%
+\contentsline {section}{Conclusión}{5}{section*.3}%

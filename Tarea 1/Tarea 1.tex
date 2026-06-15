@@ -1,0 +1,367 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{tikz}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+%\usepackage{lmodern}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+%\usepackage{helvet}
+%\usepackage{mathptmx}
+\usepackage{amsmath}       
+\usepackage{amssymb}      
+\usepackage{adjustbox}     
+\usepackage{lastpage}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+\usepackage{amsmath}
+\usepackage{minted}
+\usepackage{wrapfig}
+
+\usepackage{tabularx}
+\usepackage{qrcode}
+
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{float}
+\usepackage{longtable}  
+
+\renewcommand{\arraystretch}{1.4}
+\setlength{\tabcolsep}{8pt} 
+
+\setlength{\footskip}{25pt}
+%---------------------------python
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\lstdefinestyle{pythonstyle}{
+	language=Python,
+	basicstyle=\ttfamily\small,
+	keywordstyle=\color{blue},
+	stringstyle=\color{red},
+	commentstyle=\color{gray},
+	numbers=left,
+	numberstyle=\tiny\color{gray},
+	stepnumber=1,
+	numbersep=5pt,
+	showspaces=false,
+	showstringspaces=false,
+	breaklines=true,
+	frame=single,
+	tabsize=4
+}
+
+
+
+%-------------------------------Consola
+\usepackage{listings}
+\usepackage{xcolor}
+
+\lstdefinestyle{consola}{
+	backgroundcolor=\color{black!5},
+	basicstyle=\ttfamily,
+	frame=single,
+	keywordstyle=\color{blue},
+	commentstyle=\color{gray},
+	showstringspaces=false
+}
+
+%Plano Z y Z^2
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+
+
+\geometry{top=2.5cm, bottom=2.5cm, left=2.5cm, right=1.5cm}
+
+% Estilo de página
+\pagestyle{fancy}
+\fancypagestyle{miestilo}{
+	\fancyhf{} % Limpia encabezado y pie
+	
+	% Encabezado izquierda: logo
+	\fancyhead[L]{%
+		\vspace{0.1cm}
+		\adjustbox{valign=c,scale=0.15}{%
+			\begin{tikzpicture}
+				\clip (-3,-2.8) rectangle (3,2.8);
+				\draw[black,line width=0.8cm] (-2.3,0)--(2.3,0);
+				\draw[black,line width=0.8cm] (0,-2.85)--(0,2.85);
+				\draw[black,line width=0.87cm] (0,2.8) circle(2);
+				\draw[black,line width=0.87cm] (0,-2.8) circle(2);
+			\end{tikzpicture}
+		}%
+	}
+	
+	% Encabezado centro: título
+	\fancyhead[C]{\textbf{Técnicas Digitales 1   
+	}}
+	
+	% Encabezado derecha: TP y año debajo
+	\fancyhead[R]{%
+		Tarea 1: FPGA Y CPLD \\ 2026
+	}
+	
+	% Línea en el encabezado y pie
+	\renewcommand{\headrulewidth}{0.4pt}
+	\renewcommand{\footrulewidth}{0.4pt}
+	
+	% Pie de página derecha: Página X de Y
+	\fancyfoot[R]{Página \thepage\ de \pageref{LastPage}}
+}
+
+
+\begin{document}
+	
+	% --------- PORTADA ---------
+	\pagestyle{empty}
+	\begin{center}
+		\textbf{\LARGE UNIVERSIDAD TECNOLÓGICA NACIONAL}\\[0.2cm]
+		\textbf{\Large FACULTAD REGIONAL CÓRDOBA}\\[0.5cm]
+		\textbf{\large INGENIERÍA ELECTRÓNICA}\\[1.5cm]
+		
+		\begin{tikzpicture}
+			\clip (-3,-2.8) rectangle (3,2.8);
+			\draw[black,line width=0.8cm] (-2.3,0)--(2.3,0);
+			\draw[black,line width=0.8cm] (0,-2.85)--(0,2.85);
+			\draw[black,line width=0.87cm] (0,2.8) circle(2);
+			\draw[black,line width=0.87cm] (0,-2.8) circle(2);
+		\end{tikzpicture}
+		
+		\vspace{1cm}
+		\textbf{\large Técnicas Digitales 1   
+		}\\[0.5cm]
+		\rule{\textwidth}{0.4pt}\\[0.3cm]
+		\textbf{\Huge Tarea 1: FPGA y CPLD}\\[0.3cm]
+		{\large Estudio comparativo de dispositivos lógicos programables: FPGA y CPLD}\\[0.3cm]
+		\rule{\textwidth}{0.4pt}\\[1.5cm]
+	\end{center}
+	
+	\begin{flushleft}
+		\begin{tabular}{@{}ll}
+			DOCENTES     & : Esp.Ing. Marcelo Casasnovas\\ 
+			& \ \  Ing Florencia Belén Molla JTP \\[0.2cm]
+			CÁTEDRA      & :  Técnicas Digitales 1   \\[0.2cm]
+			CURSO        & : 3R4 \\[0.2cm]
+			ALUMNO      & :
+			\begin{tabular}[t]{@{}l l}
+				Gonza Elías Noel Imanol           & 87669 \\ 
+			\end{tabular}
+		\end{tabular}
+	\end{flushleft}
+	
+	\vfill
+	\begin{center}
+		\textbf{CÓRDOBA, ARGENTINA}\\
+		\textbf{2026}
+	\end{center}
+	\pagestyle{empty}
+	% --------- CAMBIO DE ESTILO ---------
+	\newpage
+	\pagenumbering{arabic}
+	\pagestyle{miestilo}
+	% --------- CONTENIDO ---------
+	\tableofcontents
+	\newpage
+	
+
+	\section*{Introducción}
+	\addcontentsline{toc}{section}{Introducción}
+	El presente informe analiza la evolución del hardware desde la lógica discreta y los circuitos integrados de aplicación específica (ASIC) hacia la flexibilidad de la lógica programable. Se explora cómo dispositivos como las FPGA y CPLD han revolucionado la industria al permitir que el silicio se comporte como un ``lienzo infinito'' capaz de ser reconfigurado según las necesidades del usuario.
+	
+
+	
+	\section*{Definición de Dispositivos}
+	\addcontentsline{toc}{section}{Definición de Dispositivos}
+	
+	\subsection*{CPLD (Complex Programmable Logic Device)}
+	\addcontentsline{toc}{subsection}{CPLD (Complex Programmable Logic Device)}
+	
+	Un CPLD es un dispositivo de lógica programable de complejidad intermedia, ubicado entre las lógicas programables simples (PAL/PLA) y las FPGA. Su principal característica es que no es volátil, lo que significa que conserva la configuración incluso cuando se desconecta la alimentación. Gracias a esto, el dispositivo puede comenzar a funcionar inmediatamente al encenderse, sin necesidad de cargar nuevamente su configuración.
+	
+	Los CPLD suelen utilizarse en aplicaciones de control, decodificación lógica, máquinas de estados y reemplazo de múltiples circuitos lógicos discretos.
+	
+	\subsection*{FPGA (Field Programmable Gate Array)}
+	\addcontentsline{toc}{subsection}{FPGA (Field Programmable Gate Array)}
+	
+	Una FPGA es un dispositivo formado por una matriz de bloques lógicos configurables (CLB) conectados entre sí mediante una red de interconexiones programables. A diferencia de un procesador convencional con arquitectura fija, una FPGA permite implementar hardware personalizado mediante software, adaptándose a diferentes aplicaciones.
+	
+	El término ``Field Programmable'' indica que el dispositivo puede ser programado por el usuario final, fuera del proceso de fabricación. Esto permite modificar su funcionamiento cuantas veces sea necesario, convirtiendo a la FPGA en una solución muy flexible para el diseño de sistemas digitales complejos.
+	
+	\newpage
+	\section*{Diferencias Principales: FPGA vs. CPLD}
+	\addcontentsline{toc}{subsection}{Diferencias Principales: FPGA vs. CPLD}
+
+\begin{table}[h]
+	\centering
+	\renewcommand{\arraystretch}{1.4}
+	\begin{tabularx}{\textwidth}{lXX}
+		\toprule
+		\textbf{Característica} & \textbf{FPGA} & \textbf{CPLD} \\
+		\midrule
+		Volatilidad 
+		& Volátil (generalmente requiere memoria externa). 
+		& No volátil (encendido instantáneo). \\
+			\midrule
+		Arquitectura 
+		& Basada en bloques lógicos (CLB) y tablas de búsqueda (LUT). 
+		& Basada en macroceldas y matrices de interconexión. \\
+		\midrule
+		Capacidad 
+		& Muy alta; permite crear sistemas completos (SoC). 
+		& Limitada; ideal para funciones de control y pegamento lógico. \\
+		\midrule
+		Consumo 
+		& Generalmente mayor debido a su densidad. 
+		& Menor consumo en estados de espera. \\
+		\bottomrule
+	\end{tabularx}
+\end{table}
+
+
+
+\section*{Siglas y Terminología}
+\addcontentsline{toc}{section}{Siglas y Terminología}
+
+
+
+\begin{table}[H]
+	\centering
+	\renewcommand{\arraystretch}{1.3}
+	\begin{tabularx}{\textwidth}{lXX}
+		\toprule
+		\textbf{Sigla} & \textbf{Significado (Inglés)} & \textbf{Significado (Español)} \\
+		\midrule
+		ASIC & Application Specific Integrated Circuit & Circuito Integrado de Aplicación Específica \\
+			\midrule
+		TTL & Transistor--Transistor Logic & Lógica Transistor a Transistor \\
+			\midrule
+		PLA & Programmable Logic Array & Lógica de Matriz Programable \\
+		\midrule
+		PAL & Programmable Array Logic & Lógica de Matriz Programable \\
+			\midrule
+		SRAM & Static Random Access Memory & Memoria RAM Estática \\
+			\midrule
+		CLB & Configurable Logic Block & Bloque Lógico Configurable \\
+			\midrule
+		LUT & Look-Up Table & Tabla de Búsqueda \\
+			\midrule
+		HDL & Hardware Description Language & Lenguaje de Descripción de Hardware \\
+			\midrule
+		SoC & System on Chip & Sistema en un Chip \\
+			\midrule
+		ACAP & Adaptive Compute Acceleration Platform & Plataforma de Aceleración de Cómputo Adaptativa \\
+			\midrule
+		GPIO & General Purpose Input Output & Entrada/Salida de Propósito General \\
+		    \midrule
+		SSI & Stacked Silicon Interconnect & Tecnología 2.5D de apilado\\
+		    \midrule
+		DPR & Dynamic Partial Reconfiguration & Reconfiguración parcial dinámica\\
+		\bottomrule
+	\end{tabularx}
+\end{table}
+\newpage
+
+\section*{Fabricantes y Productos}
+	\addcontentsline{toc}{section}{Fabricantes y Productos}
+
+\begin{itemize}
+	
+	\item \textbf{Texas Instruments:} Serie 7400 TTL (lógica discreta de los años 70).
+	
+	\item \textbf{Signetics \& Monolithic Memories (MMI):} Creadores de las PLA y PAL basadas en fusibles de un solo uso.
+	
+	\item \textbf{Altera (Inicios):} Lanzó el EP300 (borrable por UV) y la serie Max 7000 (CPLD).
+	
+	\item \textbf{Xilinx (Fundación):} Ross Freeman inventa la FPGA con el modelo \textit{fabless}. Lanzan el XC2064 (primera FPGA comercial).
+	
+	\item \textbf{Lattice Semiconductor:} Especialistas en chips pequeños GAL y la serie iCE40 (pionera en software abierto).
+	
+	\item \textbf{Actel (Hoy Microchip):} FPGAs Anti-fuse y Flash (familias Igloo y ProASIC) para uso aeroespacial.
+	
+	\item \textbf{Tabula / MathStar / TierLogic / Ambric:} Empresas fallidas que intentaron innovar en 3D o procesamiento paralelo masivo sin éxito comercial.
+	
+	\item \textbf{Achronix:} Sobrevivientes especializados en FPGAs asíncronas de alta velocidad.
+	
+	\item \textbf{GOWIN Semiconductor:} Fabricante chino orientado al bajo costo con la serie Tang Nano.
+	
+	\item \textbf{Intel:} Adquirió Altera en 2015 para integrarla en servidores Xeon (divorcio anunciado en 2024).
+	
+	\item \textbf{AMD:} Adquirió Xilinx en 2020, creando la plataforma Versal con motores de IA.
+	
+	\item \textbf{Efinix \& Rapid Silicon:} Nuevos actores enfocados en arquitecturas alternativas y software de código abierto.
+	
+\end{itemize}
+
+
+
+
+\section*{Software, Protocolos y Seguridad}
+	\addcontentsline{toc}{section}{Software, Protocolos y Seguridad}
+
+El hardware es inútil sin el software adecuado
+
+\begin{itemize}
+			\addcontentsline{toc}{subsection}{Lenguajes}
+	\item \textbf{Lenguajes:} Se utilizan Verilog y VHDL (bajo el estándar HDL) para describir el hardware.
+			\addcontentsline{toc}{subsection}{Proyectos Open Source}
+	\item \textbf{Proyectos Open Source:} Se destaca el Project IceStorm, que permitió programar FPGAs sin depender del software propietario de los fabricantes.
+			\addcontentsline{toc}{subsection}{Soft Cores}
+	\item \textbf{Soft Cores:} Procesadores virtuales como MicroBlaze (Xilinx), Nios II (Altera) y el estándar abierto RISC-V.
+			\addcontentsline{toc}{subsection}{Seguridad}
+	\item \textbf{Seguridad:} Uso de encriptación AES-256 para proteger el bitstream (archivo de configuración) contra el robo de propiedad intelectual.
+	
+\end{itemize}
+
+
+
+
+
+\section*{Aplicaciones Especializadas}
+	\addcontentsline{toc}{section}{Aplicaciones Especializadas}
+	
+\begin{itemize}
+	
+		\addcontentsline{toc}{subsection}{Simulación Perfecta}
+	\item \textbf{Simulación Perfecta:} Dispositivos como el MiSTer FPGA (basado en la placa DE10-Nano) permiten simular consolas antiguas con precisión de ciclo, eliminando el retardo típico de la emulación por software.
+	
+		\addcontentsline{toc}{subsection}{Escaladores de Video:}
+	\item \textbf{Escaladores de Video:} El RetroTINK (desarrollado por Mike Chi) y el OSSC (Open Source Scan Converter) utilizan FPGAs para procesar señales analógicas y convertirlas a digital en tiempo real sin retraso.
+	
+			\addcontentsline{toc}{subsection}{Flashcarts}
+	\item \textbf{Flashcarts:} Cartuchos como el FX Pak Pro incorporan una FPGA interna para simular chips de apoyo (como el SuperFX) que el hardware original no poseía.
+	
+\end{itemize}
+
+	
+
+
+
+\section*{Conclusión}
+	\addcontentsline{toc}{section}{Conclusión}
+
+La historia de las FPGA puede entenderse como una evolución hacia hardware cada vez más flexible y reconfigurable. Estos dispositivos han transformado el concepto tradicional de hardware fijo, permitiendo que un mismo chip pueda adaptarse a múltiples aplicaciones mediante programación.
+
+Las FPGA representan una herramienta clave para la preservación tecnológica. Mientras el hardware físico de sistemas antiguos se degrada con el tiempo, las FPGA permiten recrear estos circuitos mediante descripciones digitales, asegurando la continuidad de plataformas y arquitecturas históricas. De esta manera, la flexibilidad de la lógica programable se convierte en un elemento fundamental para el desarrollo y conservación de sistemas electrónicos.
+\\
+\\
+\\
+\\
+
+\begin{figure}[h]
+	\centering
+	\qrcode[height=4cm]{https://github.com/Enig17/TecnicasDigitales1/blob/d5205ece060a3f9dea6220503efb555827686ca6/Tarea%201.tex}
+	\caption{Repositorio del informe en GitHub}
+\end{figure}
+\end{document}

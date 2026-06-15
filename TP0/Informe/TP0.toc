@@ -1,0 +1,11 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{Introducción}{2}{Doc-Start}%
+\contentsline {section}{Fundamento Teórico}{3}{Doc-Start}%
+\contentsline {section}{Lista de Materiales y Componentes}{3}{Doc-Start}%
+\contentsline {section}{Diagramas Técnicos y Datasheets}{4}{table.1}%
+\contentsline {section}{Proceso de Fabricación de la Placa (PCB)}{6}{figure.5}%
+\contentsline {subsection}{Pasos de Ejecución}{6}{section*.1}%
+\contentsline {subsection}{Finalización y Soldadura}{7}{figure.8}%
+\contentsline {section}{Dificultades encontradas}{9}{figure.12}%
+\contentsline {section}{Conclusiones}{9}{figure.12}%
+\contentsline {section}{Anexo: Acceso Digital}{9}{figure.12}%
