@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.11)  14 JUN 2026 20:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.11)  14 JUN 2026 21:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1195,8 +1195,9 @@ LaTeX Info: Redefining \% on input line 13.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported  on input line 13.
 
-<Reading QR code for "https://github.com/Enig17/TecnicasDigitales1/blob/d5205ec
-e060a3f9dea6220503efb555827686ca6/Tarea%201.tex" at level 6-M from aux file.>
+<Reading QR code for "https://github.com/Enig17/TecnicasDigitales1/blob/0e1d32d
+fd12a191127b5900767db057132379c51/Ejercicio%205/Ejercicio5.pdf" at level 7-M fr
+om aux file.>
 )
 \openout1 = `Ejercicio5.aux'.
 
@@ -1389,12 +1390,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [5 <./verilog_testbench.png> <./consola_simulacion.png>]
 
 
-<QR code requested for "https://github.com/Enig17/TecnicasDigitales1/blob/d5205
-ece060a3f9dea6220503efb555827686ca6/Tarea%201.tex" in version 0-M.>
+<QR code requested for "https://github.com/Enig17/TecnicasDigitales1/blob/0e1d3
+2dfd12a191127b5900767db057132379c51/Ejercicio%205/Ejercicio5.pdf" in version 0-
+M.>
 
-<Copying the QR code for "https://github.com/Enig17/TecnicasDigitales1/blob/d52
-05ece060a3f9dea6220503efb555827686ca6/Tarea%201.tex" in version 6-M as previous
-ly calculated.>
+<Copying the QR code for "https://github.com/Enig17/TecnicasDigitales1/blob/0e1
+d32dfd12a191127b5900767db057132379c51/Ejercicio%205/Ejercicio5.pdf" in version 
+7-M as previously calculated.>
 
 
 
@@ -1406,15 +1408,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [6] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20260614205154 7E0E1CECA0873B338A9
+runsystem(latexminted cleantemp  --timestamp 20260614212158 7E0E1CECA0873B338A9
 6A737A0496B53)...disabled (restricted).
 
 (Ejercicio5.aux
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
 
-<Reading QR code for "https://github.com/Enig17/TecnicasDigitales1/blob/d5205ec
-e060a3f9dea6220503efb555827686ca6/Tarea%201.tex" at level 6-M from aux file.>
+<Reading QR code for "https://github.com/Enig17/TecnicasDigitales1/blob/0e1d32d
+fd12a191127b5900767db057132379c51/Ejercicio%205/Ejercicio5.pdf" at level 7-M fr
+om aux file.>
 )
  ***********
 LaTeX2e <2024-11-01> patch level 2
@@ -1424,31 +1427,32 @@ Package rerunfilecheck Info: File `Ejercicio5.out' has not changed.
 (rerunfilecheck)             Checksum: D612D681222C4D96BE05AE643DF0F01B;1047.
  ) 
 Here is how much of TeX's memory you used:
- 41705 strings out of 469941
- 951386 string characters out of 5469430
- 1598378 words of memory out of 5000000
- 67857 multiletter control sequences out of 15000+600000
- 639864 words of font info for 69 fonts, out of 8000000 for 9000
+ 41708 strings out of 469941
+ 951503 string characters out of 5469430
+ 1615737 words of memory out of 5000000
+ 67859 multiletter control sequences out of 15000+600000
+ 640177 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,17n,107p,1975b,921s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\scanf\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
+ 102i,17n,107p,2349b,921s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\scanf\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
 1200.pk> <C:\Users\scanf\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbx1200.pk> <C:\Users\scanf\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecrm1200.pk> <C:\Users\scanf\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecrm1440.pk> <C:\Users\scanf\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\scanf\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\scanf\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\scanf\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/scanf/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/scanf/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/s
-canf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/Users/scanf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.
-pfb><C:/Users/scanf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb>
-Output written on Ejercicio5.pdf (7 pages, 263929 bytes).
+0\ecti1200.pk> <C:\Users\scanf\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1200.pk> <C:\Users\scanf\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecrm1200.pk> <C:\Users\scanf\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\scanf\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\scanf\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\scanf\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\scanf\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/scanf/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/scan
+f/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/U
+sers/scanf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Users/scanf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr8.pfb><C:/Users/scanf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb>
+Output written on Ejercicio5.pdf (7 pages, 276972 bytes).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
+ 445 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
