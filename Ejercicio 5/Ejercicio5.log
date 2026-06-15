@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.11)  14 JUN 2026 21:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.11)  14 JUN 2026 21:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1358,10 +1358,15 @@ File: rtl_schematic.png Graphic file (type png)
 <use rtl_schematic.png>
 Package pdftex.def Info: rtl_schematic.png  used on input line 345.
 (pdftex.def)             Requested size: 241.84843pt x 141.05269pt.
-<verilog_testbench.png, id=70, 567.62062pt x 432.11438pt>
+<rtl2.png, id=70, 472.76625pt x 268.75406pt>
+File: rtl2.png Graphic file (type png)
+<use rtl2.png>
+Package pdftex.def Info: rtl2.png  used on input line 346.
+(pdftex.def)             Requested size: 241.84843pt x 137.48514pt.
+<verilog_testbench.png, id=71, 567.62062pt x 432.11438pt>
 File: verilog_testbench.png Graphic file (type png)
 <use verilog_testbench.png>
-Package pdftex.def Info: verilog_testbench.png  used on input line 356.
+Package pdftex.def Info: verilog_testbench.png  used on input line 357.
 (pdftex.def)             Requested size: 411.14528pt x 313.00786pt.
 
 
@@ -1372,12 +1377,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-19.09483pt}.
 
-[4 <./verilog_modulo.png> <./rtl_schematic.png>]
-<consola_simulacion.png, id=81, 446.41782pt x 268.75406pt>
+[4 <./verilog_modulo.png> <./rtl_schematic.png> <./rtl2.png>]
+<consola_simulacion.png, id=83, 446.41782pt x 268.75406pt>
 File: consola_simulacion.png Graphic file (type png)
 <use consola_simulacion.png>
-Package pdftex.def Info: consola_simulacion.png  used on input line 367.
+Package pdftex.def Info: consola_simulacion.png  used on input line 368.
 (pdftex.def)             Requested size: 338.58632pt x 203.84102pt.
+<simulacion_senales.png, id=84, 393.72093pt x 261.97874pt>
+File: simulacion_senales.png Graphic file (type png)
+<use simulacion_senales.png>
+Package pdftex.def Info: simulacion_senales.png  used on input line 375.
+(pdftex.def)             Requested size: 459.51054pt x 305.75438pt.
 
 
 
@@ -1406,9 +1416,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-19.09483pt}.
 
-[6] 
+[6 <./simulacion_senales.png>]
+
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20260614213141 7E0E1CECA0873B338A9
+runsystem(latexminted cleantemp  --timestamp 20260614215720 7E0E1CECA0873B338A9
 6A737A0496B53)...disabled (restricted).
 
 (Ejercicio5.aux
@@ -1427,10 +1438,10 @@ Package rerunfilecheck Info: File `Ejercicio5.out' has not changed.
 (rerunfilecheck)             Checksum: D612D681222C4D96BE05AE643DF0F01B;1047.
  ) 
 Here is how much of TeX's memory you used:
- 41708 strings out of 469941
- 951503 string characters out of 5469430
- 1615728 words of memory out of 5000000
- 67859 multiletter control sequences out of 15000+600000
+ 41724 strings out of 469941
+ 951841 string characters out of 5469430
+ 1615814 words of memory out of 5000000
+ 67874 multiletter control sequences out of 15000+600000
  640177 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,17n,107p,2349b,921s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1450,9 +1461,9 @@ sers/scanf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
 fb><C:/Users/scanf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmr8.pfb><C:/Users/scanf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb>
-Output written on Ejercicio5.pdf (7 pages, 276779 bytes).
+Output written on Ejercicio5.pdf (7 pages, 298225 bytes).
 PDF statistics:
- 444 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 450 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
