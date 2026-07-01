@@ -1,0 +1,29 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {section}{\numberline {2}Teoría de los Códigos BCD y Exceso 3}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Código BCD}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Código Exceso 3}{2}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Conversor de Código BCD a Exceso 3: Diseño, Simplificación, Simulación e Implementación}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Diseño}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Tabla de Verdad}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Tabla de Salidas}{4}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Simplificación}{4}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Simulación}{5}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Implementación}{6}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Implementación para $A_1$}{6}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Implementación para $B_1$}{7}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Implementación para $C_1$}{7}{subsubsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.4}Cantidad de integrados utilizados}{7}{subsubsection.3.6.4}%
+\contentsline {subsubsection}{\numberline {3.6.5}Circuito a implementar}{8}{subsubsection.3.6.5}%
+\contentsline {section}{\numberline {4}Comparador Binario: Diseño, Simplificación, Simulación e Implementación}{8}{section.4}%
+\contentsline {subsubsection}{\numberline {4.0.1}Diseño}{9}{subsubsection.4.0.1}%
+\contentsline {subsubsection}{\numberline {4.0.2}Tabla de verdad}{10}{subsubsection.4.0.2}%
+\contentsline {subsubsection}{\numberline {4.0.3}Simplificación}{10}{subsubsection.4.0.3}%
+\contentsline {subsubsection}{\numberline {4.0.4}Simulación}{12}{subsubsection.4.0.4}%
+\contentsline {subsubsection}{\numberline {4.0.5}Implementación}{13}{subsubsection.4.0.5}%
+\contentsline {subsubsection}{\numberline {4.0.6}Implementación con compuertas NAND y NOT}{13}{subsubsection.4.0.6}%
+\contentsline {paragraph}{Para $S_0$:}{13}{paragraph*.1}%
+\contentsline {paragraph}{Para $S_1$:}{13}{paragraph*.2}%
+\contentsline {paragraph}{Para $S_2$:}{14}{paragraph*.3}%
+\contentsline {subsubsection}{\numberline {4.0.7}Circuito a implementar}{14}{subsubsection.4.0.7}%
+\contentsline {section}{Bibliografía}{15}{section*.4}%
